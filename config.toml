@@ -1,0 +1,28 @@
+title = "Somnia"
+
+# The URL the site will be built for
+base_url = "https://noahie.xyz/somnia"
+default_language = "en"
+output_dir = "../site/somnia"
+author = "Noahie Valk"
+
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+author_email = "noahie@fastmail.com"
+description = "Dreams."
