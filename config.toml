@@ -9,9 +9,6 @@ author = "Noahie Valk"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 
-author_email = "noahie@fastmail.com"
-description = "Dreams."
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
@@ -25,3 +22,6 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+
+author_email = "noahie@fastmail.com"
+description = "Dreams."
