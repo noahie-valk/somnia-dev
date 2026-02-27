@@ -24,7 +24,6 @@
     {% endfor %}
   </ul>
 {% else %}
-  {# This is a year archive, list posts in reverse chronological order #}
   {% set pages = paginator.pages | default(value=section.pages) %}
   <ul>
     {% for post in pages %}
