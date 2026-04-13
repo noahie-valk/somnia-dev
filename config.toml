@@ -4,7 +4,7 @@ title = "Somnia"
 base_url = "https://noahie.xyz/somnia"
 default_language = "en"
 output_dir = "../site/somnia"
-author = "Noahie Valk"
+author = "noahie@fastmail.com"
 
 generate_feeds = true
 feed_filenames = ["rss.xml"]
@@ -21,7 +21,4 @@ build_search_index = true
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
-
-author_email = "noahie@fastmail.com"
 description = "Dreams."
